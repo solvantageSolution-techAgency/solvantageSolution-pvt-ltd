@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/work/northstar-commerce":{},"/work/fintech-platform":{},"/work/atlas-travel":{}},"dynamicRoutes":{"/work/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/work/[slug]","routeRegex":"^\\/work\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"a59f5262cd209931267771835978f0c3","previewModeSigningKey":"351cbf01d310e6f46d141e018a73c08ac364786d969c57f7a6a0863bef2636a5","previewModeEncryptionKey":"4decc9484d9912bd0dcac3f018862327fa3993123ecac69826c960e45b33d8fc"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "bca4674b40b1bc4e080e2df578934238",
+    "previewModeSigningKey": "599fb5c1434f061f8cbaddf0acc07432ddce8d37bf9451f1a769c2f1d6aeed2e",
+    "previewModeEncryptionKey": "4461b89665761f31145df77e5ea618e88f4ff3349dd203a00d51f6d8b0c2df31"
+  }
+}
