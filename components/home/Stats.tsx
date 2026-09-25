@@ -2,7 +2,7 @@ import Reveal from "../../components/ui/Reveal";
 
 export default function Stats() {
   return (
-    <section className="section-line">
+    <section className="states section-line">
       <div className="container-iv grid gap-8 py-10 md:grid-cols-[1fr_1.5fr]">
         <Reveal><p className="eyebrow">What we do best</p></Reveal>
         <Reveal delay={.08} className="flex flex-col justify-between gap-5 md:flex-row md:items-center">

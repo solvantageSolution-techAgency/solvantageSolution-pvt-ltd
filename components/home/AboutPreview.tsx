@@ -3,7 +3,7 @@ import Reveal from "../ui/Reveal";
 
 export default function AboutPreview() {
   return (
-    <section className="section-line section-pad">
+    <section className="aboutpreview section-line section-pad">
       <div className="container-iv grid items-center gap-12 lg:grid-cols-[.9fr_1.1fr]">
         <Reveal>
           <div className="relative min-h-[440px] overflow-hidden rounded-2xl border border-[var(--line)] bg-[var(--surface)]">

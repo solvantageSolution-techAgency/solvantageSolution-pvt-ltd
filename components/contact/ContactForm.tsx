@@ -2,15 +2,16 @@
 
 import { useState } from "react";
 import { ArrowUpRight, CheckCircle2, Loader2 } from "lucide-react";
+// import "env/config';
 
-const endpoint = "https://formspree.io/f/mgaeppkr";
+const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT || "https://formspree.io/f/mgaeppkr";
 
 export default function ContactForm() {
   return (
     <form
-      action="https://formspree.io/f/mgaeppkr"
+      action={endpoint}
       method="POST"
-      className="card p-6 space-y-5"
+      className="card p-6 space-y-5 "
     >
       {/* Name */}
       <div>

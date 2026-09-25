@@ -5,7 +5,7 @@ import Reveal from "../../components/ui/Reveal";
 
 export default function Services() {
   return (
-    <section className="section-line section-pad">
+    <section className="services section-line section-pad">
       <div className="container-iv grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
         <div>
           <p className="eyebrow">Our services</p>

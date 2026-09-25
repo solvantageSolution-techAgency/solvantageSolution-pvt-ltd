@@ -9,7 +9,7 @@ const points = [
 
 export default function WhyUs() {
   return (
-    <section className="section-line section-pad">
+    <section className="hyus section-line section-pad">
       <div className="container-iv">
         <div className="grid gap-10 md:grid-cols-[.7fr_1.3fr]">
           <div><p className="eyebrow">Why us</p><h2 className="display mt-3 text-4xl font-bold sm:text-5xl">Built around outcomes, not output.</h2></div>

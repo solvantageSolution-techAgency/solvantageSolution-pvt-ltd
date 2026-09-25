@@ -10,7 +10,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section className="section-line section-pad">
+    <section className="process section-line section-pad">
       <div className="container-iv">
         <p className="eyebrow">How we work</p>
         <div className="mt-3 grid gap-12 lg:grid-cols-[.75fr_1.25fr]">

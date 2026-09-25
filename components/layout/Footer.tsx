@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container-iv py-14">
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <div className="display text-xl font-bold">INDUS-VALLEY-007</div>
+            <div className="display text-xl font-bold">Solvantage solution pvt. ltd.</div>
             <p className="mt-3 max-w-xs text-sm text-[var(--muted)]">Digital experiences for ambitious businesses.</p>
           </div>
           <div>
@@ -26,8 +26,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 flex flex-col justify-between gap-3 border-t border-[var(--line)] pt-5 text-[10px] text-[var(--muted)] sm:flex-row">
-          <span>© 2026 INDUS-VALLEY-007. All rights reserved.</span>
-          <span>Built with passion / India ♥</span>
+          <span>© 2026 Solvantage Solution pvt. ltd.. All rights reserved.</span>
+          
         </div>
       </div>
     </footer>

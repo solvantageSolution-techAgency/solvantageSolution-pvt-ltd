@@ -11,7 +11,7 @@ export default function Testimonials() {
   const change = (dir: number) => setIndex((index + dir + testimonials.length) % testimonials.length);
 
   return (
-    <section className="section-line section-pad">
+    <section className="testimonials section-line section-pad">
       <div className="container-iv grid gap-12 md:grid-cols-[.8fr_1.2fr]">
         <div><p className="eyebrow">What our clients say</p><h2 className="display mt-3 text-4xl font-bold sm:text-5xl">Kind words<br/>from great people.</h2></div>
         <div className="relative min-h-[240px]">

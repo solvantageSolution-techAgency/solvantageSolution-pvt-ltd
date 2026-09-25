@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 export default function FinalCTA() {
   return (
-    <section className="yellow-band overflow-hidden">
+    <section className="finalcta yellow-band overflow-hidden">
       <div className="container-iv flex min-h-[270px] flex-col items-start justify-center gap-8 py-16 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="eyebrow text-[#102018]/70">Let&apos;s work together</p>

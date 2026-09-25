@@ -16,7 +16,7 @@ export default function HomePage() {
       <SelectedWork />
       <Services />
       <Process />
-      <AboutPreview />
+      {/* <AboutPreview /> */}
       <WhyUs />
       <Testimonials />
       <FinalCTA />

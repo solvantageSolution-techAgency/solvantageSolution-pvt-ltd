@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const space = Space_Grotesk({ subsets: ["latin"], variable: "--font-space" });
 
 export const metadata: Metadata = {
-  title: "INDUS-VALLEY-007 — Ideas. Design. Development.",
+  title: "Solvantage Solution",
   description: "A digital agency for ambitious brands."
 };
 

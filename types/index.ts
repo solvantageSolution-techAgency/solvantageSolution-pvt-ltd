@@ -7,6 +7,10 @@ export type Project = {
   result: string;
   imageClass: string;
   tags: string[];
+  imageURL:string;
+  liveUrl:string;
+  featured: boolean,
+
 };
 
 export type Service = {
