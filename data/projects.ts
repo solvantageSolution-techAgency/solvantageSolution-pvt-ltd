@@ -1,6 +1,50 @@
 import type { Project } from "../types";
 
 export const projects: Project[] = [
+   {
+    slug: "mehta Cares",
+    number: "04",
+    title: "Dr. Mehta Clinic",
+    category: "medical care centre",
+    description:
+      "Mehta cares is a medical care centre which provides its clients not only consulting opportinity but also educate them . ",
+    result:
+      "A complete medical care centre with landing page, get instant appointment ,about  ,treatement , and contact page. provide the facility to connect directely to doctor via email ",
+    imageClass: "project-image-two",
+    tags: [
+      "nextJS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwing/postcss",
+      "emailing service",
+    ],
+    imageURL: "/assets/mehtaclinic.png",
+    liveUrl: "https://docter-mehta-clinic-portfolio-site.vercel.app/",
+    featured: true,
+  },
+  {
+    slug: "Guruji Academy",
+    number: "05",
+    title: "Guruji Academy",
+    category: "Army Coaching Centre",
+    description:
+      "Guruji Academy is a Army education coaching centre centre which provides its student not only consulting opportinity but also educate them . ",
+    result:
+      "A complete academin coaching centre with landing page, enquiry page ,about , defence classes, library section , hostel , facilities , and contact page. provide the facility to connect directely to doctor via email ",
+    imageClass: "project-image-two",
+    tags: [
+      "nextJS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwing/postcss",
+      "emailing service",
+    ],
+    imageURL: "/assets/acedemy.png",
+    liveUrl: "https://guru-ji-sarsaul.netlify.app",
+    featured: true,
+  },
   {
     slug: "smartgrahak-bill-calculator",
     number: "01",
@@ -44,9 +88,9 @@ export const projects: Project[] = [
       "i18n",
       "Admin Dashboard",
     ],
-   imageURL: "/assets/e-store.png",
+    imageURL: "/assets/e-store.png",
     liveUrl: "https://smartgrahak.in",
-    featured: true,
+    featured: false,
   },
 
   {
@@ -65,8 +109,11 @@ export const projects: Project[] = [
       "Pandas",
       "Pillow",
     ],
-   imageURL: "/assets/dryfruitStore.png",
+    imageURL: "/assets/dryFruitStore.png",
     liveUrl: "#",
-    featured: true,
+    featured: false,
   },
+ 
+
+
 ];

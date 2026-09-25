@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/work/smartgrahak-bill-calculator":{},"/work/smartgrahak-e-store":{},"/work/dryfruit-store-for-royals":{},"/services/web-design":{},"/services/web-development":{},"/services/brand-identity":{},"/services/seo-performance":{}},"dynamicRoutes":{"/work/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/work/[slug]","routeRegex":"^\\/work\\/([^/]+?)(?:\\/)?$","allowHeader":[]},"/services/[service]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/services/[service]","routeRegex":"^\\/services\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"6db326abef8eaf223142bca138015858","previewModeSigningKey":"30a3220d1327678553e24d9e59a07200ff1dc01894453c91da7b87e54a79cfc5","previewModeEncryptionKey":"4246c1ee68a3c78a0f6aa5ba9b57d474575eda41d4c1d2ca14576592ef69f1eb"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "2ba4f23ec278d80e793e204e0d5e2caf",
+    "previewModeSigningKey": "37464eedf045d44b013343a37d841f048d2906a0a207465f66612502ab71af5e",
+    "previewModeEncryptionKey": "080845f1df5cf86b6b3d34b3c562373b93eb0240a29d0458bd99e282e842fb58"
+  }
+}

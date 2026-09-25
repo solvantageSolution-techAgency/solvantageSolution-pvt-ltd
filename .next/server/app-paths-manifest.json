@@ -1,12 +1,3 @@
 {
-<<<<<<< HEAD
-  "/contact/page": "app/contact/page.js",
-  "/work/[slug]/page": "app/work/[slug]/page.js",
-  "/about/page": "app/about/page.js",
-  "/work/page": "app/work/page.js",
-  "/page": "app/page.js",
-  "/services/page": "app/services/page.js"
-=======
   "/page": "app/page.js"
->>>>>>> baeb2554d41eb50f18783ad50bd1982ff74cfcc4
 }
