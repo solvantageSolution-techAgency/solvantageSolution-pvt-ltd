@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // File: E:\agencyProjects\AgencySite\app\page.tsx
+=======
+// File: C:\agencyWork\agencyWebsite\solvantageSolution-pvt-ltd\app\page.tsx
+>>>>>>> baeb2554d41eb50f18783ad50bd1982ff74cfcc4
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
