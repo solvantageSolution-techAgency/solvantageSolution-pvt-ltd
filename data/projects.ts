@@ -2,7 +2,7 @@ import type { Project } from "../types";
 
 export const projects: Project[] = [
    {
-    slug: "mehta Cares",
+    slug: "mehta-Cares",
     number: "04",
     title: "Dr. Mehta Clinic",
     category: "medical care centre",
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    slug: "Guruji Academy",
+    slug: "Guruji-Academy",
     number: "05",
     title: "Guruji Academy",
     category: "Army Coaching Centre",
