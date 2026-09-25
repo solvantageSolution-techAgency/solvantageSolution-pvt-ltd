@@ -65,7 +65,7 @@ export const projects: Project[] = [
     ],
     imageURL: "/assets/bill_calculator.png",
     liveUrl: "https://bill.smartgrahak.in",
-    featured: true,
+    featured: false,
   },
 
   {
@@ -111,7 +111,7 @@ export const projects: Project[] = [
     ],
     imageURL: "/assets/dryFruitStore.png",
     liveUrl: "#",
-    featured: false,
+    featured: true,
   },
  
 

@@ -676,14 +676,59 @@ video {
 .min-h-\[440px\] {
   min-height: 440px;
 }
+.min-h-\[50vh\] {
+  min-height: 50vh;
+}
 .min-h-\[520px\] {
   min-height: 520px;
 }
-.min-h-\[calc\(100vh-74px\)\] {
-  min-height: calc(100vh - 74px);
+.min-h-\[calc\(100vh-214px\)\] {
+  min-height: calc(100vh - 214px);
 }
-.min-h-screen {
+.min-h-\[10vh\] {
+  min-height: 10vh;
+}
+.min-h-\[100vh\] {
   min-height: 100vh;
+}
+.min-h-\[1010vh\] {
+  min-height: 1010vh;
+}
+.min-h-\[90vh\] {
+  min-height: 90vh;
+}
+.min-h-\[80vh\] {
+  min-height: 80vh;
+}
+.min-h-\[70vh\] {
+  min-height: 70vh;
+}
+.min-h-\[60vh\] {
+  min-height: 60vh;
+}
+.min-h-\[0vh\] {
+  min-height: 0vh;
+}
+.min-h-\[calc\(100vh-314px\)\] {
+  min-height: calc(100vh - 314px);
+}
+.min-h-\[calc\(100vh-414px\)\] {
+  min-height: calc(100vh - 414px);
+}
+.min-h-\[calc\(100vh-514px\)\] {
+  min-height: calc(100vh - 514px);
+}
+.min-h-\[calc\(100vh-354px\)\] {
+  min-height: calc(100vh - 354px);
+}
+.min-h-\[calc\(100vh-344px\)\] {
+  min-height: calc(100vh - 344px);
+}
+.min-h-\[calc\(100vh-334px\)\] {
+  min-height: calc(100vh - 334px);
+}
+.min-h-\[calc\(100vh-324px\)\] {
+  min-height: calc(100vh - 324px);
 }
 .w-12 {
   width: 3rem;
@@ -948,10 +993,6 @@ video {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
@@ -1144,6 +1185,9 @@ video {
 }
 .blur-3xl {
   --tw-blur: blur(64px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .backdrop-blur {
@@ -1411,6 +1455,14 @@ button, input, textarea, select { font: inherit; }
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:min-h-\[calc\(100vh-74px\)\] {
+    min-height: calc(100vh - 74px);
+  }
+
+  .md\:min-h-screen {
+    min-height: 100vh;
   }
 
   .md\:grid-cols-2 {

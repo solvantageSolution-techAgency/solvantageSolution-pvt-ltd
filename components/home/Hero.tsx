@@ -9,10 +9,13 @@ import { motion } from "framer-motion";
 
 import Button from "../../components/ui/Button";
 
+
+
+
 export default function Hero() {
   return (
-    <section className="hero grid-bg relative min-h-screen overflow-hidden pt-[74px]">
-      <div className="container-iv flex min-h-[calc(100vh-74px)] items-center py-12 lg:py-16">
+    <section className="hero flex flex-col grid-bg relative md:min-h-screen overflow-hidden pt-[74px] min-h-[80vh]">
+      <div className="container-iv flex   min-h-[calc(100vh-334px)] md:min-h-[calc(100vh-74px)] items-center py-6 lg:py-16">
         <div className="w-full">
           <div className="max-w-5xl">
             {/* Eyebrow */}

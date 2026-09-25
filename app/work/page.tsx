@@ -4,6 +4,8 @@ import { ArrowUpRight, ExternalLink, Github } from "lucide-react";
 import { projects } from "../../data/projects";
 
 export default function WorkPage() {
+
+ 
   return (
     <section className="container-iv section-pad pt-36">
       <p className="eyebrow">Selected work</p>

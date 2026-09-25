@@ -7,6 +7,7 @@ import { projects } from "../../data/projects";
 import Reveal from "../../components/ui/Reveal";
 
 export default function SelectedWork() {
+  const selectedWork = projects.filter((p) => p.featured)
   return (
     <section className="selectedworks pb-20">
       <div className="container-iv">
@@ -31,7 +32,7 @@ export default function SelectedWork() {
         </div>
 
         <div className="mt-12 grid gap-5 md:grid-cols-3">
-          {projects.map((project, i) => (
+          {selectedWork.map((project, i) => (
             <Reveal key={project.slug} delay={i * 0.08}>
               <Link
                 href={`/work/${project.slug}`}
