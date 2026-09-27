@@ -20,7 +20,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 w-full border-b border-[var(--line)] bg-[color:var(--bg)]/80 backdrop-blur-xl">
       <div className="container-iv flex h-[74px] items-center justify-between">
         <Link href="/" className="group">
-          <div className="display text-[15px] font-bold tracking-[-.03em]">Solvantage Solution</div>
+          <div className="display text-[25px] font-bold tracking-[-.03em]">Solvantage Solution</div>
           <div className="mt-0.5 text-[7px] font-bold uppercase tracking-[.24em] text-[var(--muted)]">
             Ideas · Design · Development
           </div>
