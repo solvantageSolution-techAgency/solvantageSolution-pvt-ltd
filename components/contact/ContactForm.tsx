@@ -45,6 +45,8 @@ export default function ContactForm() {
     setStatus("sending");
 
     try {
+      console.log("sending message")
+      console.log("sending message")
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
@@ -52,6 +54,7 @@ export default function ContactForm() {
         },
         body: JSON.stringify(formData),
       });
+      console.log("message sent")
 
       const result = await response.json();
 

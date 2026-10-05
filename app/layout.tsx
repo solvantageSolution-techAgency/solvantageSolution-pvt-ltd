@@ -6,6 +6,7 @@ import { ThemeProvider } from "../components/layout/ThemeProvider";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import CursorGlow from "../components/ui/CursorGlow";
+import { div } from "framer-motion/client";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const space = Space_Grotesk({ subsets: ["latin"], variable: "--font-space" });
@@ -15,10 +16,11 @@ export const metadata: Metadata = {
   description: "A digital agency for ambitious brands."
 };
 
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} ${space.variable} grain`}>
+    <html lang="en" suppressHydrationWarning >
+      <body className={`${inter.variable} ${space.variable} grain` }   suppressHydrationWarning>
         <ThemeProvider>
           <CursorGlow />
           <Navbar />
